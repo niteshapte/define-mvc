@@ -1,0 +1,34 @@
+##
+# @version 1.0: .htaccess 14401 2015-11-15s 14:10:00Z Nitesh Apte $
+# @package Define MVC
+# @copyright Copyright (C) 2015 Nitesh Apte. All rights reserved.
+# @license GPL Version 3
+# @author Nitesh Apte
+##
+
+# Disable directory listing
+Options -Indexes
+
+php_flag magic_quotes_gpc Off
+php_value magic_quotes_gpc Off
+
+ServerSignature Off
+DirectoryIndex bootstrap.php
+
+RewriteEngine On
+RewriteBase /
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule ^(.*)$ bootstrap.php/$1
+
+# Error redirection # ## Replace %{HTTP_HOST} with your domain name if it doesn't work ##
+ErrorDocument 400 %{HTTP_HOST}/error/default/400/
+ErrorDocument 401 %{HTTP_HOST}/error/default/401/
+ErrorDocument 402 %{HTTP_HOST}/error/default/402/
+ErrorDocument 403 %{HTTP_HOST}/error/default/403/
+ErrorDocument 404 %{HTTP_HOST}/error/default/404/
+ErrorDocument 408 %{HTTP_HOST}/error/default/408/
+ErrorDocument 415 %{HTTP_HOST}/error/default/415/
+ErrorDocument 500 %{HTTP_HOST}/error/default/500/
+ErrorDocument 502 %{HTTP_HOST}/error/default/502/
+ErrorDocument 503 %{HTTP_HOST}/error/default/503/
