@@ -1,0 +1,791 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+
+	<title>Class Define\DBDrivers\ORACLEDriver</title>
+
+	<link rel="stylesheet" href="resources/style.css?e99947befd7bf673c6b43ff75e9e0f170c88a60e">
+
+</head>
+
+<body>
+<div id="left">
+	<div id="menu">
+		<a href="index.html" title="Overview"><span>Overview</span></a>
+
+
+		<div id="groups">
+				<h3>Namespaces</h3>
+			<ul>
+				<li>
+					<a href="namespace-Application.html">
+						Application<span></span>
+					</a>
+
+						<ul>
+				<li>
+					<a href="namespace-Application.Controller.html">
+						Controller					</a>
+
+						</li>
+				<li>
+					<a href="namespace-Application.Model.html">
+						Model<span></span>
+					</a>
+
+						<ul>
+				<li>
+					<a href="namespace-Application.Model.DAO.html">
+						DAO<span></span>
+					</a>
+
+						<ul>
+				<li>
+					<a href="namespace-Application.Model.DAO.Impl.html">
+						Impl					</a>
+
+						</li>
+							</ul></li>
+				<li>
+					<a href="namespace-Application.Model.Service.html">
+						Service<span></span>
+					</a>
+
+						<ul>
+				<li>
+					<a href="namespace-Application.Model.Service.Impl.html">
+						Impl					</a>
+
+						</li>
+							</ul></li></ul></li></ul></li>
+				<li class="active">
+					<a href="namespace-Define.html">
+						Define<span></span>
+					</a>
+
+						<ul>
+				<li>
+					<a href="namespace-Define.Core.html">
+						Core					</a>
+
+						</li>
+				<li class="active">
+					<a href="namespace-Define.DBDrivers.html">
+						DBDrivers					</a>
+
+						</li>
+				<li>
+					<a href="namespace-Define.Exceptions.html">
+						Exceptions					</a>
+
+						</li>
+				<li>
+					<a href="namespace-Define.IUtilities.html">
+						IUtilities					</a>
+
+						</li>
+				<li>
+					<a href="namespace-Define.Traits.html">
+						Traits					</a>
+
+						</li>
+				<li>
+					<a href="namespace-Define.Utilities.html">
+						Utilities					</a>
+
+						</li>
+							</ul></li>
+				<li>
+					<a href="namespace-None.html">
+						None					</a>
+
+						</li>
+			</ul>
+		</div>
+
+		<hr>
+
+
+		<div id="elements">
+			<h3>Classes</h3>
+			<ul>
+				<li><a href="class-Define.DBDrivers.DatabaseBean.html">DatabaseBean</a></li>
+				<li><a href="class-Define.DBDrivers.DatabaseFactory.html">DatabaseFactory</a></li>
+				<li><a href="class-Define.DBDrivers.MONGODBDriver.html">MONGODBDriver</a></li>
+				<li><a href="class-Define.DBDrivers.MSSQLDriver.html">MSSQLDriver</a></li>
+				<li><a href="class-Define.DBDrivers.MYSQLDriver.html">MYSQLDriver</a></li>
+				<li><a href="class-Define.DBDrivers.MYSQLIDriver.html">MYSQLIDriver</a></li>
+				<li class="active"><a href="class-Define.DBDrivers.ORACLEDriver.html">ORACLEDriver</a></li>
+				<li><a href="class-Define.DBDrivers.PDODriver.html">PDODriver</a></li>
+				<li><a href="class-Define.DBDrivers.POSTGREDriver.html">POSTGREDriver</a></li>
+				<li><a href="class-Define.DBDrivers.SQLITEDriver.html">SQLITEDriver</a></li>
+			</ul>
+
+			<h3>Interfaces</h3>
+			<ul>
+				<li><a href="class-Define.DBDrivers.IDatabase.html">IDatabase</a></li>
+			</ul>
+
+
+
+
+		</div>
+	</div>
+</div>
+
+<div id="splitter"></div>
+
+<div id="right">
+<div id="rightInner">
+	<form id="search">
+		<input type="hidden" name="cx" value="">
+		<input type="hidden" name="ie" value="UTF-8">
+		<input type="text" name="q" class="text" placeholder="Search">
+	</form>
+
+	<div id="navigation">
+		<ul>
+			<li>
+				<a href="index.html" title="Overview"><span>Overview</span></a>
+			</li>
+			<li>
+				<a href="namespace-Define.DBDrivers.html" title="Summary of Define\DBDrivers"><span>Namespace</span></a>
+			</li>
+			<li class="active">
+<span>Class</span>			</li>
+		</ul>
+		<ul>
+		</ul>
+		<ul>
+		</ul>
+	</div>
+
+<div id="content" class="class">
+	<h1>Class ORACLEDriver</h1>
+
+
+	<div class="description">
+	<p>ORACLE DRIVER</p>
+
+<p>Oracle Driver class</p>
+	</div>
+
+	<dl class="tree">
+		<dd style="padding-left:0px">
+<b><span>Define\DBDrivers\ORACLEDriver</span></b>			
+			 implements 
+				<a href="class-Define.DBDrivers.IDatabase.html"><span>Define\DBDrivers\IDatabase</span></a>
+			
+			 uses 
+					<a href="class-Define.Traits.SingletonTrait.html"><span>Define\Traits\SingletonTrait</span></a>
+			
+		</dd>
+	</dl>
+
+
+
+
+
+
+
+
+	<div class="info">
+		
+		
+		<b>Namespace:</b> <a href="namespace-Define.html">Define</a>\<a href="namespace-Define.DBDrivers.html">DBDrivers</a><br>
+		<b>Package:</b> DBDrivers<br>
+
+				<b>Category:</b>
+				Define<br>
+				<b>Copyright:</b>
+				2015 Nitesh Apte<br>
+				<b>License:</b>
+				<a href="https://www.gnu.org/licenses/gpl.txt">GNU General Public License v3
+
+This program is free software: you can redistribute it and/or modify
+it under the terms of the GNU General Public License as published by
+the Free Software Foundation, either version 3 of the License, or
+(at your option) any later version.
+
+This program is distributed in the hope that it will be useful,
+but WITHOUT ANY WARRANTY; without even the implied warranty of
+MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+GNU General Public License for more details.
+
+You should have received a copy of the GNU General Public License
+along with this program.  If not, see &lt;http://www.gnu.org/licenses/&gt;.</a><br>
+				<b>Author:</b>
+				Nitesh Apte <a href="&#109;&#97;&#105;&#x6c;&#x74;&#x6f;:&#109;&#101;&#64;&#x6e;&#x69;&#x74;&#101;&#115;&#104;&#97;&#x70;&#x74;&#x65;&#46;&#99;&#111;&#x6d;">&#109;&#101;&#64;&#x6e;&#x69;&#x74;&#101;&#115;&#104;&#97;&#x70;&#x74;&#x65;&#46;&#99;&#111;&#x6d;</a><br>
+				<b>Version:</b>
+				1.0.0<br>
+				<b>Since:</b>
+				1.0.0<br>
+			<b>Located at</b> <a href="source-class-Define.DBDrivers.ORACLEDriver.html#10-206" title="Go to source code">lib/define/dbdrivers/ORACLEDriver.php</a>
+		<br>
+	</div>
+
+
+
+	<table class="summary methods" id="methods">
+	<caption>Methods summary</caption>
+	<tr data-order="getConnection" id="_getConnection">
+
+		<td class="attributes"><code>
+			 public 
+
+			Object
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_getConnection">#</a>
+		<code><a href="source-class-Define.DBDrivers.ORACLEDriver.html#40-49" title="Go to source code">getConnection</a>( <span><code><a href="class-Define.DBDrivers.DatabaseBean.html">Define\DBDrivers\DatabaseBean</a></code> <var>$bean</var></span> )</code>
+
+		<div class="description short">
+			<p>Open a connection to Oracle server</p>
+		</div>
+
+		<div class="description detailed hidden">
+			<p>Open a connection to Oracle server</p>
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$bean</var></dt>
+					<dd></dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					Object<br>$this
+				</div>
+
+
+
+
+				<h4>Implementation of</h4>
+				<div class="list"><code><a href="class-Define.DBDrivers.IDatabase.html#_getConnection">Define\DBDrivers\IDatabase::getConnection()</a></code></div>
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="selectDB" id="_selectDB">
+
+		<td class="attributes"><code>
+			 public 
+
+			Object
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_selectDB">#</a>
+		<code><a href="source-class-Define.DBDrivers.ORACLEDriver.html#51-59" title="Go to source code">selectDB</a>( )</code>
+
+		<div class="description short">
+			<p>Select a Oracle database.</p>
+		</div>
+
+		<div class="description detailed hidden">
+			<p>Select a Oracle database.</p>
+
+
+
+				<h4>Returns</h4>
+				<div class="list">
+					Object<br>$this
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="executeSql" id="_executeSql">
+
+		<td class="attributes"><code>
+			 public 
+
+			Object
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_executeSql">#</a>
+		<code><a href="source-class-Define.DBDrivers.ORACLEDriver.html#61-71" title="Go to source code">executeSql</a>( <span>String <var>$query</var></span>, <span> <var>$parameters</var> = <span class="php-quote">''</span></span> )</code>
+
+		<div class="description short">
+			<p>Execute the SQL</p>
+		</div>
+
+		<div class="description detailed hidden">
+			<p>Execute the SQL</p>
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$query</var></dt>
+					<dd></dd>
+					<dt><var>$parameters</var></dt>
+					<dd></dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					Object<br>$this
+				</div>
+
+
+
+
+				<h4>Implementation of</h4>
+				<div class="list"><code><a href="class-Define.DBDrivers.IDatabase.html#_executeSql">Define\DBDrivers\IDatabase::executeSql()</a></code></div>
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="beginTransaction" id="_beginTransaction">
+
+		<td class="attributes"><code>
+			 public 
+
+			Object
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_beginTransaction">#</a>
+		<code><a href="source-class-Define.DBDrivers.ORACLEDriver.html#73-81" title="Go to source code">beginTransaction</a>( )</code>
+
+		<div class="description short">
+			<p>Starts a transaction</p>
+		</div>
+
+		<div class="description detailed hidden">
+			<p>Starts a transaction</p>
+
+
+
+				<h4>Returns</h4>
+				<div class="list">
+					Object<br>$this Current object
+				</div>
+
+
+
+
+				<h4>Implementation of</h4>
+				<div class="list"><code><a href="class-Define.DBDrivers.IDatabase.html#_beginTransaction">Define\DBDrivers\IDatabase::beginTransaction()</a></code></div>
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="commitTransaction" id="_commitTransaction">
+
+		<td class="attributes"><code>
+			 public 
+
+			Object
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_commitTransaction">#</a>
+		<code><a href="source-class-Define.DBDrivers.ORACLEDriver.html#83-91" title="Go to source code">commitTransaction</a>( )</code>
+
+		<div class="description short">
+			<p>Commit the changes</p>
+		</div>
+
+		<div class="description detailed hidden">
+			<p>Commit the changes</p>
+
+
+
+				<h4>Returns</h4>
+				<div class="list">
+					Object<br>$this Current object
+				</div>
+
+
+
+
+				<h4>Implementation of</h4>
+				<div class="list"><code><a href="class-Define.DBDrivers.IDatabase.html#_commitTransaction">Define\DBDrivers\IDatabase::commitTransaction()</a></code></div>
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="rollbackTransaction" id="_rollbackTransaction">
+
+		<td class="attributes"><code>
+			 public 
+
+			Object
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_rollbackTransaction">#</a>
+		<code><a href="source-class-Define.DBDrivers.ORACLEDriver.html#93-101" title="Go to source code">rollbackTransaction</a>( )</code>
+
+		<div class="description short">
+			<p>Rollback the changes</p>
+		</div>
+
+		<div class="description detailed hidden">
+			<p>Rollback the changes</p>
+
+
+
+				<h4>Returns</h4>
+				<div class="list">
+					Object<br>$this Current object
+				</div>
+
+
+
+
+				<h4>Implementation of</h4>
+				<div class="list"><code><a href="class-Define.DBDrivers.IDatabase.html#_rollbackTransaction">Define\DBDrivers\IDatabase::rollbackTransaction()</a></code></div>
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="fetchAssoc" id="_fetchAssoc">
+
+		<td class="attributes"><code>
+			 public 
+
+			Object
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_fetchAssoc">#</a>
+		<code><a href="source-class-Define.DBDrivers.ORACLEDriver.html#103-116" title="Go to source code">fetchAssoc</a>( )</code>
+
+		<div class="description short">
+			<p>Fetch a result row as an associative array</p>
+		</div>
+
+		<div class="description detailed hidden">
+			<p>Fetch a result row as an associative array</p>
+
+
+
+				<h4>Returns</h4>
+				<div class="list">
+					Object<br>$this
+				</div>
+
+
+
+
+				<h4>Implementation of</h4>
+				<div class="list"><code><a href="class-Define.DBDrivers.IDatabase.html#_fetchAssoc">Define\DBDrivers\IDatabase::fetchAssoc()</a></code></div>
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="fetchArray" id="_fetchArray">
+
+		<td class="attributes"><code>
+			 public 
+
+			Array
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_fetchArray">#</a>
+		<code><a href="source-class-Define.DBDrivers.ORACLEDriver.html#118-131" title="Go to source code">fetchArray</a>( )</code>
+
+		<div class="description short">
+			<p>Fetch a result row as an associative array and as an enumerated array</p>
+		</div>
+
+		<div class="description detailed hidden">
+			<p>Fetch a result row as an associative array and as an enumerated array</p>
+
+
+
+				<h4>Returns</h4>
+				<div class="list">
+					Array<br>$this->sqlStoreValues
+				</div>
+
+
+
+
+				<h4>Implementation of</h4>
+				<div class="list"><code><a href="class-Define.DBDrivers.IDatabase.html#_fetchArray">Define\DBDrivers\IDatabase::fetchArray()</a></code></div>
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="fetchObject" id="_fetchObject">
+
+		<td class="attributes"><code>
+			 public 
+
+			Array
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_fetchObject">#</a>
+		<code><a href="source-class-Define.DBDrivers.ORACLEDriver.html#133-146" title="Go to source code">fetchObject</a>( )</code>
+
+		<div class="description short">
+			<p>Fetch a result row as an object</p>
+		</div>
+
+		<div class="description detailed hidden">
+			<p>Fetch a result row as an object</p>
+
+
+
+				<h4>Returns</h4>
+				<div class="list">
+					Array<br>$this->sqlStoreValues
+				</div>
+
+
+
+
+				<h4>Implementation of</h4>
+				<div class="list"><code><a href="class-Define.DBDrivers.IDatabase.html#_fetchObject">Define\DBDrivers\IDatabase::fetchObject()</a></code></div>
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="affectedRows" id="_affectedRows">
+
+		<td class="attributes"><code>
+			 public 
+
+			Object
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_affectedRows">#</a>
+		<code><a href="source-class-Define.DBDrivers.ORACLEDriver.html#148-156" title="Go to source code">affectedRows</a>( )</code>
+
+		<div class="description short">
+			<p>Fetch number of affected rows in previous Oracle operation</p>
+		</div>
+
+		<div class="description detailed hidden">
+			<p>Fetch number of affected rows in previous Oracle operation</p>
+
+
+
+				<h4>Returns</h4>
+				<div class="list">
+					Object<br>$this
+				</div>
+
+
+
+
+				<h4>Implementation of</h4>
+				<div class="list"><code><a href="class-Define.DBDrivers.IDatabase.html#_affectedRows">Define\DBDrivers\IDatabase::affectedRows()</a></code></div>
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="lastID" id="_lastID">
+
+		<td class="attributes"><code>
+			 public 
+
+			Int
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_lastID">#</a>
+		<code><a href="source-class-Define.DBDrivers.ORACLEDriver.html#158-169" title="Go to source code">lastID</a>( <span>none <var>$tableName</var> = <span class="php-quote">''</span></span>, <span> <var>$fieldName</var> = <span class="php-quote">''</span></span> )</code>
+
+		<div class="description short">
+			<p>Method to return the id of last affected row</p>
+		</div>
+
+		<div class="description detailed hidden">
+			<p>Method to return the id of last affected row</p>
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$tableName</var></dt>
+					<dd></dd>
+					<dt><var>$fieldName</var></dt>
+					<dd></dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					Int<br>$this->lastID Last id
+				</div>
+
+
+
+
+				<h4>Implementation of</h4>
+				<div class="list"><code><a href="class-Define.DBDrivers.IDatabase.html#_lastID">Define\DBDrivers\IDatabase::lastID()</a></code></div>
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="multipleID" id="_multipleID">
+
+		<td class="attributes"><code>
+			 public 
+
+			array
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_multipleID">#</a>
+		<code><a href="source-class-Define.DBDrivers.ORACLEDriver.html#171-185" title="Go to source code">multipleID</a>( <span>Int <var>$size</var></span>, <span> <var>$tableName</var> = <span class="php-quote">''</span></span>, <span> <var>$fieldName</var> = <span class="php-quote">''</span></span> )</code>
+
+		<div class="description short">
+			<p>Method to return id of last multiple insert statements executed</p>
+		</div>
+
+		<div class="description detailed hidden">
+			<p>Method to return id of last multiple insert statements executed</p>
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$size</var></dt>
+					<dd>Count of statements</dd>
+					<dt><var>$tableName</var></dt>
+					<dd></dd>
+					<dt><var>$fieldName</var></dt>
+					<dd></dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					array
+				</div>
+
+
+
+
+				<h4>Implementation of</h4>
+				<div class="list"><code><a href="class-Define.DBDrivers.IDatabase.html#_multipleID">Define\DBDrivers\IDatabase::multipleID()</a></code></div>
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="freeResult" id="_freeResult">
+
+		<td class="attributes"><code>
+			 public 
+
+			
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_freeResult">#</a>
+		<code><a href="source-class-Define.DBDrivers.ORACLEDriver.html#187-195" title="Go to source code">freeResult</a>( )</code>
+
+		<div class="description short">
+			<p>Method to free the results from memory</p>
+		</div>
+
+		<div class="description detailed hidden">
+			<p>Method to free the results from memory</p>
+
+
+
+
+
+
+
+				<h4>Implementation of</h4>
+				<div class="list"><code><a href="class-Define.DBDrivers.IDatabase.html#_freeResult">Define\DBDrivers\IDatabase::freeResult()</a></code></div>
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="__destruct" id="___destruct">
+
+		<td class="attributes"><code>
+			 public 
+
+			
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#___destruct">#</a>
+		<code><a href="source-class-Define.DBDrivers.ORACLEDriver.html#197-205" title="Go to source code">__destruct</a>( )</code>
+
+		<div class="description short">
+			<p>Destroy Oracle connection</p>
+		</div>
+
+		<div class="description detailed hidden">
+			<p>Destroy Oracle connection</p>
+
+
+
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	</table>
+
+
+	<table class="summary used">
+	<caption>Methods used from <a href="class-Define.Traits.SingletonTrait.html#methods">Define\Traits\SingletonTrait</a></caption>
+	<tr>
+		<td><code>
+			<a href="class-Define.Traits.SingletonTrait.html#___sleep">__sleep()</a>, 
+			<a href="class-Define.Traits.SingletonTrait.html#___wakeup">__wakeup()</a>, 
+			<a href="class-Define.Traits.SingletonTrait.html#_getInstance">getInstance()</a>
+		</code></td>
+	</tr>
+	</table>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</div>
+
+	<div id="footer">
+		 API documentation generated by <a href="http://apigen.org">ApiGen</a>
+	</div>
+</div>
+</div>
+<script src="resources/combined.js"></script>
+<script src="elementlist.js"></script>
+</body>
+</html>
