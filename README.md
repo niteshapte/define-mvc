@@ -65,6 +65,9 @@ Define MVC is completely configurable.
 
 For example, you want your UserController to be UserXYZ go to 'configuration/define.inc' and change CONTROLLER_SUFFIX to XYZ. Similarly, you can change other configuration properties.
 
+### API Documentation
+
+Check docs/index.html for API documentation.
 
 ### TODO
 // More documentation to come. However, it's open for contribution.
