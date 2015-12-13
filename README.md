@@ -59,6 +59,7 @@ echo $msg
 ** All the files related to your project will be inside 'application' folder**. However, you can change the configurations defined in 'configuration/define.inc'.
 
 To test after importing the project in your local server, try accessing the following:
+
 http://www.domain.com/
 
 http://www.domain.com/index/default/me-you/
@@ -67,7 +68,7 @@ http://www.domain.com/index/test-from-service/
 
 http://www.domain.com/index/test-from-dao/
 
-- where domain.com is your local server.
+where domain.com is your local server.
 
 ### Configuration
 
