@@ -4,6 +4,9 @@ Define MVC is a **Front Controller** based MVC framework for developing web base
 
 The name **Define** because you can define it the way you want. I have tried to keep everything configurable.
 
+**IMPORTANT: While developing this framework, I had a virtual host created for it. Request you guys to do the same. Probably it will not work if you try to access it like htt://localhost/define-mvc/**
+
+
 ### Contribute
 
 Please feel free to contribute. But try to keep the implementation simple so that a developer working for first time shouldn't find it difficult to understand and use it.
