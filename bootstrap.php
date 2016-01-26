@@ -21,7 +21,6 @@ set_include_path(get_include_path().PATH_SEPARATOR."lib/define/utilities");
 set_include_path(get_include_path().PATH_SEPARATOR."lib/define/traits");
 set_include_path(get_include_path().PATH_SEPARATOR."lib/define/exceptions");
 set_include_path(get_include_path().PATH_SEPARATOR."lib/vendors/phpmailer");
-set_include_path(get_include_path().PATH_SEPARATOR."lib/vendors/tmdb");
 ###########################################################################################################################
 # Core classes of framework - End   #
 
